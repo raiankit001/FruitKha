@@ -1,0 +1,457 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.page-1 {
+    position: relative;
+    top: -90px;
+    background-image: url(fruitkha-assets/hero-bg.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.header {
+    padding-top: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.navbar {
+    background:#051922;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    margin: auto;
+    color: white;
+}
+
+.navbar img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    width: 90%;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav li {
+    margin: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-shadow: 0 0 5px black;
+}
+
+.nav .symb {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 30px;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.nav li:hover,
+.nav .fa:hover {
+    color: #F28123;
+}
+
+/* -----------------------page-1 */
+
+.p-1 {
+    min-height: 100vh;
+    position: relative;
+    height: 840px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* background-color: rgba(31, 0, 69, 0.849); */
+    background-color: 	rgba(4, 39, 75, 0.556);
+}
+
+.p-1 {
+    position: relative;
+    top: -80px;
+}
+
+.p-1 h1 {
+    font-size: 75px;
+    margin: 25px;
+    font-weight: 700;
+}
+
+.p-1 p {
+    color: #F28123;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.p-1 .btn-row {
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: #F28123;
+    transition: background-color 0.5s;
+    color: white;
+}
+.btn-1:hover{
+    background-color: #051922;
+}
+.btn-2{
+    background-color: transparent;
+    border: 2px solid #F28123;
+    transition: background-color 0.5s;
+}
+.btn-2:hover{
+    background-color: #F28123;
+}
+/* ------------------features */
+
+.features{
+    position: relative;
+    top: -90px;
+    background-color: #f5f5f5;
+    padding: 70px 0;
+}
+.small-container{
+    margin: auto;
+    display: flex;
+    width: 1200px;
+}
+.features .fa{
+    color: #F28123;
+    border: 1px dashed #F28123  ;
+    border-radius: 50%;
+    padding:18px;
+    font-size: 25px;
+}
+.features .feat{
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.features .txt{
+    text-align: left;
+}
+p{
+    color: #555;
+    padding-top: 10px;
+}
+h5{
+    font-size: 20px;
+}
+
+/* ------------------our products */
+
+.products{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+.head{
+    margin: auto;
+    width: 550px;
+}
+.head h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.head p{
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+.head span{
+    color: #F28123;
+}
+img{
+    width: 100%;
+}
+.card-row{
+    display: flex;
+}
+.card{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.122);
+    margin: 30px;
+    transition: box-shadow 0.5s;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card h3{
+    font-size: 22px;
+}
+.card .price {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px;
+}
+.card .btn{
+    margin: 30px 80px;
+}
+
+
+/* ------------deal */
+.deals{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.deals .left-col,
+.deals .right-col{
+    flex:1;
+    padding: 150px 20px;
+}
+.right-col h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.deals h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.deals p{
+    line-height: 1.5rem;
+    margin-bottom:30px ;
+}
+.right-col span{
+    color: #F28123;
+}
+.deals .time-deal{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+.deals .time{
+    padding: 10px;
+    border: 2px solid #F28123;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.time-deal span{
+    font-weight: 700;
+    font-size: 30px;
+}
+.deals .btn{
+    width:160px;
+}
+.deals .fa{
+    padding-right: 10px;
+}
+
+/* --------------------testimonials - */
+
+.testimonials .a{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.testimonials{
+    text-align: center;
+    margin: 200px 0;
+}
+.testimonials .small-container{
+    justify-content: space-around;
+}
+.testimonials img{
+    border-radius: 50%;
+    margin: auto;
+    width: 150px;
+}
+.testimonials p, .testimonials .fa{
+    color: #939393;
+
+}
+.testimonials h4{
+    font-size: 20px;
+}
+.testimonials .t-t{
+    font-weight: 700;
+}
+.testimonials .fa{
+    scale: 2;
+}
+
+/* -----------------------video - */
+/* -------------------sale - */
+
+.sale{
+    background-image: url(fruitkha-assets/1.jpg);
+}
+.sale .box{
+    padding: 100px 200px;
+}
+.sale .btn{
+    width: 130px;
+}
+.sale .fdiv{
+    display: flex;
+    align-items:end;
+    margin-bottom: 25px;
+    gap: 10px;
+    font-size: 20px;
+}
+.sale span{
+    color: #F28123;
+    font-size: 55px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+.sale h2{
+    position:static;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+/* ---------------------news - */
+
+.news .btn{
+    display: inline-block;
+    margin: 70px;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    
+}
+.news .small-container .card{
+    text-align: left;
+}
+.news .box{
+    display: flex;
+    gap: 20px;
+}
+.news .card{
+    border-radius: 20px 20px 0 0;
+}
+.news img{
+    border-radius: 20px 20px 0 0 ;
+}
+.news h3,.card .box,.news p,.news .card .btn{
+    padding: 20px;
+}
+
+.news .card .btn{
+    background-color: transparent;
+    color: black;
+    margin:30px 0;
+}
+.news .products{
+    margin-bottom: 70px;
+}
+
+/* --------------------colab - */
+/* --------------------footer - */
+ul li{
+    list-style: none;
+}
+
+.footer{
+    background-color: #051922;
+    color: white;
+    padding: 150px 0;
+}
+.footer .fa{
+    color: #F28123;
+}
+.footer h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.footer p,.footer li{
+    color: #939393;
+    line-height: 2rem;
+}
+.footer .small-container{
+    gap: 40px;
+}
+.footer .box{
+    flex: 1;
+}
+.footer .email-btn{
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+    gap: 5px;
+}
+.footer .email-btn .fa{
+    font-size: 20px;
+    display: flex;
+    background-color: #012744;
+    padding: 15px;
+    transition: background-color 0.5s;
+    border-radius:0 5px 5px 0;
+}
+.footer .email-btn .fa:hover{
+    background-color: #F28123;
+    color: #051922;
+}
+.email-input{
+    background-color: #012744;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    padding: 15px;
+    width: 220px;
+}
+/*-------------------------------- */
+.foot-2{
+    background-color: #051922;
+    border-top: 0.1px solid #555;
+}
+.footb{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.foot-2 span{
+    color: #F28123;
+}
+.foot-2 p{
+    color: rgb(208, 208, 208);
+}
+.foot-2 .row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.foot-2 .col-2 .fa{
+    padding: 10px;
+    scale: 1.2;
+}
